@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 food.name,
                 style: TextStyle(fontSize: 30),
               ),
-              subtitle: Text("ราคา ${food.price} บาท."),
+              subtitle: Text("ราคา ${food.price} บาท"),
             );
           }),
     );
